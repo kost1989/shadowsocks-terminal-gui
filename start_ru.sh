@@ -4,7 +4,7 @@
 SS_CLIENT="/usr/bin/ss-local"
 
 # Директория с конфигурационными файлами (можно изменить аргументом)
-CONFIG_DIR="."
+CONFIG_DIR="/$HOME/.config/shadowsocks/"
 
 # Проверка наличия установленного клиента Shadowsocks
 check_installed() {
